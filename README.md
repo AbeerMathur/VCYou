@@ -17,3 +17,15 @@ Before you start, ensure you have the following installed:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/AbeerMathur/VCYou.git
+
+2. **Switch directory:**
+   ```bash
+   cd VCYou
+
+3. **Install required packages**
+   ```bash
+   pip install -r requirements.txt
+
+4. **Start the server to run the application**
+   ```bash
+   python manage.py runserver
