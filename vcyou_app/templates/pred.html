@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yes or No</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f8d57e;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .icon {
+            font-size: 5rem;
+            margin: 20px;
+        }
+
+        .yes {
+            color: green;
+            font-size: 5rem;
+        }
+
+        .no {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                {% if prediction == 1 %}
+                <i class="icon yes fas fa-check-circle"></i>
+                <h1 style="color:green;">YES!</h1>
+                <h2>It might as well be the next big one!</h2>
+                <h3><span class="yes">This is a great startup that looks promising as per our model based on extensive parameters.</span></h3>
+                {% else %}
+                <i class="icon no fas fa-times-circle"></i>
+                <h1 style="color:rgba(255, 0, 0, 0.872);">Unfortunately, No</h1>
+                <h3><span class="no">This particular startup does not seem as promising. Based on the extensive parameters, we would recommend you to rethink.</span></h3>
+                {% endif %}
+            </div>
+        </div>
+        <button class="btn btn-primary mt-4" onclick="goBack()">Go back</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "/";
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
