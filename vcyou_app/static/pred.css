@@ -1,0 +1,235 @@
+*{
+    margin:0;
+}
+
+.div {
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div-2 {
+    background-color: var(--Accent---Sweet-Corn, #f8d57e);
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+    }
+  }
+  .div-3 {
+    display: flex;
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 0px;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0;
+    }
+  }
+  .div-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 45px;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-5 {
+    color: var(--Onboarding-background-grey, #2d2d2d);
+    text-align: center;
+    letter-spacing: -1.6px;
+    font: 700 80px/130% Poppins, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  .div-6 {
+    color: var(--Onboarding-background-grey, #2d2d2d);
+    text-align: center;
+    margin-top: 20px;
+    font: 400 40px/150% Mulish, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      max-width: 100%;
+    }
+  }
+  .div-7 {
+    align-self: center;
+    display: flex;
+    align-items: start;
+    gap: 13px;
+    margin: 107px 0 0 -27px;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+  }
+  .img {
+    aspect-ratio: 0.79;
+    object-fit: contain;
+    object-position: center;
+    width: 100px;
+    fill: var(--Accent---Persimmon, #ff6250);
+    overflow: hidden;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  .div-8 {
+    text-align: center;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      max-width: 100%;
+    }
+  }
+  .div-9 {
+    color: #080c1a;
+    white-space: nowrap;
+    font: 500 60px Poppins, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      font-size: 40px;
+      white-space: initial;
+    }
+  }
+  .div-10 {
+    color: #080c1a;
+    text-align: center;
+    align-self: stretch;
+    margin-top: 118px;
+    font: 400 32px/45px Poppins, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .img-2 {
+    aspect-ratio: 0.79;
+    object-fit: contain;
+    object-position: center;
+    width: 50px;
+    fill: var(--Neutral---Zircon, #f8f9ff);
+    overflow: hidden;
+    align-self: end;
+    max-width: 100%;
+    margin: 91px 116px 0 0;
+  }
+  @media (max-width: 991px) {
+    .img-2 {
+      margin: 40px 10px 0 0;
+    }
+  }
+  .div-11 {
+    align-self: center;
+    display: flex;
+    width: 100%;
+    max-width: 1225px;
+    padding-right: 0px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding-right: 0px;
+    }
+  }
+  .div-12 {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .div-13 {
+    display: flex;
+    margin-top: 63px;
+    flex-direction: column;
+    align-items: start;
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      margin-top: 40px;
+    }
+  }
+  .img-3 {
+    aspect-ratio: 0.48;
+    object-fit: contain;
+    object-position: center;
+    width: 60px;
+    fill: var(--Accent---Persimmon, #ff6250);
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .img-4 {
+    aspect-ratio: 1.22;
+    object-fit: contain;
+    object-position: center;
+    width: 50px;
+    fill: var(--Neutral---Zircon, #f8f9ff);
+    overflow: hidden;
+    align-self: end;
+    margin-top: 61px;
+    max-width: 100%;
+  }
+  @media (max-width: 991px) {
+    .img-4 {
+      margin-top: 40px;
+    }
+  }
+  .img-5 {
+    aspect-ratio: 0.79;
+    object-fit: contain;
+    object-position: center;
+    width: 50px;
+    fill: var(--Neutral---Zircon, #f8f9ff);
+    overflow: hidden;
+    align-self: start;
+    max-width: 100%;
+  }
+  .img-6 {
+    aspect-ratio: 0.79;
+    object-fit: contain;
+    object-position: center;
+    width: 100px;
+    fill: var(--Accent---Persimmon, #ff6250);
+    overflow: hidden;
+    align-self: start;
+    margin-top: 18px;
+    max-width: 100%;
+  }
